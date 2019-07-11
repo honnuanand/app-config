@@ -1,0 +1,17 @@
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    io:
+      pivotal: INFO
+
+spring: # <---NEW SECTION
+  cloud:
+    services:
+      registrationMethod: direct
